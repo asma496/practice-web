@@ -53,20 +53,26 @@
 
 
 
-var city = prompt(" where do you live ?");
-if
-    (city ==  karachi) {
-        alert ("Welcome to city of lights");
-    }
-    else if
-    (city == Lahore) {
-        alert ("welcome to historical city");
-    }
-  else if 
-     (city == Quetta) {
-         alert("welcome to cold city");
-     }
+// var city = +prompt(" where do you live ?")
+// if
+// (city ===  "karachi") {
+//         alert ("Welcome to city of lights")
+//     }
+// else if
+//     (city === "Lahore") {
+//         alert ("welcome to historical city");
+//     }
+// else if 
+//      (city === "Quetta") {
+//          alert("welcome to cold city");
+//      }
 
+
+var city = prompt(" where do you live ?")
+ if
+ (city ===  "karachi") {
+         alert ("Welcome to city of lights")
+    }
 
 
 
