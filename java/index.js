@@ -240,20 +240,101 @@
 
 
 
+لوکوموشن :// کسی جاندار کی ایک جگہ سے دوسری جگہکی طرف حر// ۔ 2, LOCOMOTION
 
-function vowel_count(str1)
-{
-  var vowel_list = prompt("entre the name");
-  var vcount = 1;
+
+
+
+
+
+
+
+
+
+
+
+// function vowel_count(str1)
+// {
+//   var vowel_list = prompt("entre the name");
+//   var vcount = 1;
   
-  for(var i = 0; i < str1.length ; i++)
-  {
-    if (vowel_list.indexOf(str1[i]) !== -1)
-    {
-      vcount += 1;
-    }
+//   for(var i = 0; i < str1.length ; i++)
+//   {
+//     if (vowel_list.indexOf(str1[i]) !== -1)
+//     {
+//       vcount += 1;
+//     }
   
-  }
-  return vcount;
+//   }
+//   return vcount;
+// }
+// console.log(vowel_count("The quick brown fox"));
+
+
+
+
+
+// var num = ['asma', "madiha"];
+// var num2 = ["hina", 'shumaila' , "ruqayya"];
+// var num3 = num2.concat(num);
+// console.log(num3);
+
+
+
+// var stu = ["asma","madiha","ruhama"];
+// var newstu = stu.join(" ");
+// console.log(newstu);
+
+// var stu = 34;
+// var newstu = stu.toString();
+// console.log(newstu);
+
+
+
+// var stu = ["ruhama","zainab","asma"];
+// var newstu = stu.sort();
+// console.log(newstu);
+
+// var stu = ["80","56","3"];
+// stu.sort(mysort);
+// function mysort(a,b){
+//     return a-b
+// }
+// console.log(stu);
+
+// var number = [2,5,8];
+// var newarr =[];
+// function num(number){
+//     for(var i=o; i<number.length;i++){
+//     newarr.push = (number[i]*2)
+// }
+//  return newarr
+// }
+// var result =num(number);
+// console.log(result);
+
+
+// var num = [2,7,6];
+// var newarr =[];
+// function num1(num){
+//     forEach(function(element){
+//     newarr.push =num(element[i]*2);
+// }
+// }
+
+//   num1(num);
+// console.log(newarr);
+
+
+
+
+var num = [2,7,6];
+var newarr =[];
+
+    forEach(function(element){
+    newarr.push = num(element*2);
+    console.log(newarr);
 }
-console.log(vowel_count("The quick brown fox"));
+
+
+ 
