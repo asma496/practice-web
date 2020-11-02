@@ -302,16 +302,16 @@
 // }
 // console.log(stu);
 
-// var number = [2,5,8];
-// var newarr =[];
-// function num(number){
-//     for(var i=o; i<number.length;i++){
-//     newarr.push = (number[i]*2)
-// }
-//  return newarr
-// }
-// var result =num(number);
-// console.log(result);
+var number = [2,5,8];
+var newarr =[];
+function num(number){
+    for(var i=o; i<number.length;i++){
+    newarr.push = (number[i]*2)
+}
+ return newarr
+}
+var result =newarr(number);
+console.log(result);
 
 
 // var num = [2,7,6];
@@ -328,13 +328,13 @@
 
 
 
-var num = [2,7,6];
-var newarr =[];
+// var num = [2,7,6];
+// var newarr =[];
 
-    forEach(function(element){
-    newarr.push = num(element*2);
-    console.log(newarr);
-}
+//     forEach(function(element){
+//     newarr.push = num(element*2);
+//     console.log(newarr);
+// }
 
 
  

@@ -2,6 +2,28 @@
 background-color: #f4511e;
 width: 100%;
 }
+.display-4{
+  margin-top: 40px;
+  color: #fff !important;
+}
+.input-group{
+  margin: auto;
+ 
+}
+.lead1{
+  color: #fff;
+}
+.btn1{
+  background-color: rgba(146, 21, 21, 0.63) !important;
+  color: #fff !important;
+}
+
+@media screen and (max-width: 768px){
+  .btn1{
+      margin-right: 20px;
+
+  }
+}
 
 h2{
  text-transform: uppercase;
@@ -119,8 +141,6 @@ font-size: 19px;
   
  
 }
-
-
 
 
 
