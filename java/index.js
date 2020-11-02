@@ -194,3 +194,66 @@
 
 
 
+// var num = ["3","9","4","6","2"]
+// function numb(){
+//     num*2
+//     return num*2
+// }
+// console.log(num);
+//  for(var i = 0;i<num;i++){
+//      num= i*i
+
+//  }
+//  console.log(num);
+
+
+// var nam = "asma hina iqra shumaila madiha";
+
+// function names(nam1){
+  
+//  nam = nam1.toUpperCase();
+
+    
+// }
+//   names(nam)
+// console.log(nam);
+
+
+
+
+
+// var str ="geeksforgeeks";
+// var string = 
+// function func() { 
+//     var str = 'geeksforgeeks'; 
+//     var string = str.toUpperCase(); 
+//     console.log(string); 
+// }
+
+
+// var nam = prompt("input your name")
+// var vowel ="a, e, i, o, u";
+// function nam1(nam){
+//     nam == vowel 
+
+// }
+
+
+
+
+function vowel_count(str1)
+{
+  var vowel_list = prompt("entre the name");
+  var vcount = 1;
+  
+  for(var i = 0; i < str1.length ; i++)
+  {
+    if (vowel_list.indexOf(str1[i]) !== -1)
+    {
+      vcount += 1;
+    }
+  
+  }
+  return vcount;
+}
+console.log(vowel_count("The quick brown fox"));
