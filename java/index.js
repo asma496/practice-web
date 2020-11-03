@@ -368,11 +368,63 @@
 
 // console.log(txt(input));
   
-function roundoff(num,n){
-  num = num.toFixed(n)
-  console.log(num)
-}
+// function roundoff(num,n){
+//   num = num.toFixed(n)
+//   console.log(num)
+
+// }
+// roundoff(445.67006457, 3)
+
+
+// var num= prompt('enter your amount'  );
+
+//  function roundoff(num,n){
+//    num = num.toFixed(n)
+   
+
+// }
+// roundoff(num);
+// console.log(num);
 
 
 
 
+
+
+
+
+
+// function randomNumber(min, max) {  
+//     min = Math.ceil(min); 
+//     max = Math.floor(max); 
+//     return Math.floor(Math.random() * (max - min + 1)) + min; 
+// }  
+  
+// document.write("Random Number between 1 and 10: ")  
+  
+// Function call 
+// document.write( randomNumber(1, 10) );
+
+
+// 1
+    // if(arr== get.indexof(num)){
+       //console.log("your index is" , arr);
+    
+//    }   
+// newarr(get);
+// console.log("your index is" , arr);
+
+
+// var index = [11, 22 , 33, 44, 55, 66, 77, 88, 99,10].indexOf(66); 
+// console.log("index is : " + index );
+
+var arr = [11, 22 , 33, 44, 55, 66, 77, 88, 99,10];
+function  double(arr)
+     if(arr.indexof()){
+    return "You're getting plenty of sleep! Maybe even too much!";}
+    console.log(arr)
+    // else(number of sleep < 8)
+    // {return "Get some more shut eye!";}
+    }
+    double(55);
+    //console.log(arr);
