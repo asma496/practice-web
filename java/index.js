@@ -240,7 +240,6 @@
 
 
 
-لوکوموشن :// کسی جاندار کی ایک جگہ سے دوسری جگہکی طرف حر// ۔ 2, LOCOMOTION
 
 
 
@@ -302,16 +301,16 @@
 // }
 // console.log(stu);
 
-var number = [2,5,8];
-var newarr =[];
-function num(number){
-    for(var i=o; i<number.length;i++){
-    newarr.push = (number[i]*2)
-}
- return newarr
-}
-var result =newarr(number);
-console.log(result);
+// var number = [2,5,8];
+// var newarr =[];
+// function double(num){
+//   for(var i=0; i<num.length; i++){
+//     newarr.push = (num[i]*2)
+// }
+
+// }
+// double(number);
+// console.log(newarr);
 
 
 // var num = [2,7,6];
@@ -338,3 +337,42 @@ console.log(result);
 
 
  
+// var str = 'the quick brown fox jumps over the lazy dog';
+// var str2 = (str.slice(0,19));
+// var add = 'the white cat';
+// var add2 = (add + str.slice(19));
+ 
+// console.log(add2);
+
+
+// var text = prompt('enter the text');
+// if(text.indexOf('  ') >= 0){
+//   console.log("2 spaces found");
+// }
+// else{
+//   console.log('no found')
+// }
+
+ 
+
+// var text = 'that takes string and find exclaimation ! point in the string';
+// console.log(text.indexoft('!'));
+
+// var input =prompt('enter your amount');
+
+
+// function txt(input){
+// return Number(input).toFixed(2)
+  
+// }
+
+// console.log(txt(input));
+  
+function roundoff(num,n){
+  num = num.toFixed(n)
+  console.log(num)
+}
+
+
+
+
