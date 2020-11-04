@@ -418,13 +418,47 @@
 // var index = [11, 22 , 33, 44, 55, 66, 77, 88, 99,10].indexOf(66); 
 // console.log("index is : " + index );
 
-var arr = [11, 22 , 33, 44, 55, 66, 77, 88, 99,10];
-function  double(arr)
-     if(arr.indexof()){
-    return "You're getting plenty of sleep! Maybe even too much!";}
-    console.log(arr)
+// var arr = [11, 22 , 33, 44, 55, 66, 77, 88, 99,10];
+// function  double(arr)
+//      if(arr.indexof()){
+//     return "You're getting plenty of sleep! Maybe even too much!";}
+//     console.log(arr)
     // else(number of sleep < 8)
     // {return "Get some more shut eye!";}
-    }
-    double(55);
+    // }
+    // double(55);
     //console.log(arr);
+
+
+
+
+    // var days = ['Monday', "Tuesday", 'Wednesday', 'Thursday', 'Friday','Saturday','Sunday'];
+    // var range = Math.floor(Math.random()*7);
+    // console.log(days[range]);
+
+
+
+    // var now = new Date();
+    // var birth = new Date("june 30, 1996");
+    // var diff =  now.getTime() - birth.getTime();
+    // diff = diff /(1000*60*60*24);
+    // console.log(diff);
+
+
+    // var now = new Date();
+    // var tomm = new Date("Nov 5, 2020 10:44:30");
+    // var diff = tomm.getTime() - now.getTime();
+    // diff = diff/(1000*60*60);
+    // console.log(diff);
+
+var now = new Date();
+
+    function formatdate(now) {
+     var format =now.getFullYear()+ "-" +(now.getMonth()+1)+ "-" +now.getDate();
+     console.log(format);
+    }
+    formatdate(now);
+      // console.log("Current date: "+ theHr + ":" + theMin+ "-" +get, now);
+      
+      // tellTime(date)
+      // console.log(now);
