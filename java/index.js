@@ -554,20 +554,13 @@
 //  var input =prompt("enter the value");   
   var i = 5;
   do { 
-      input =prompt("enter the value");   
+      input =+prompt("enter the value");   
      if(input == i){
     alert("you have won");}
      
-  } while (input !== i){
-      input1 = prompt("enter the correct value");
-  }
-//  prompt("enter the correct value");
+  } while (input !== i)
 
-//  var i = 0;
-// while (i <= 3) {
-//  alert(i);
-//  i++;
-//  }
+
 
 
 
