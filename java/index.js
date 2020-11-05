@@ -451,14 +451,126 @@
     // diff = diff/(1000*60*60);
     // console.log(diff);
 
-var now = new Date();
+// var now = new Date();
 
-    function formatdate(now) {
-     var format =now.getFullYear()+ "-" +(now.getMonth()+1)+ "-" +now.getDate();
-     console.log(format);
-    }
-    formatdate(now);
+//     function formatdate(now) {
+//      var format =now.getFullYear()+ "-" +(now.getMonth()+1)+ "-" +now.getDate();
+//      console.log(format);
+//     }
+//     formatdate(now);
       // console.log("Current date: "+ theHr + ":" + theMin+ "-" +get, now);
       
       // tellTime(date)
       // console.log(now);
+
+
+
+    //   var signal = "green";
+
+    //   switch (signal) {
+    //       case "red":
+    //           alert("must stop")
+              
+    //           break;
+    //           case "yellow":
+    //      alert("ready");
+    //           break;
+    //           case "green":
+    //               alert("go")
+    //               break;
+
+    //       default:
+    //           alert("depend on u");
+             
+    //   }
+
+
+    // var arr = ["asma","iqra","sidra","genifer"]
+    // var newarr =[];
+    // function arr2(arr){
+        
+    // }
+
+
+    // function calculate(a, b) {
+    //     if (a > 0 && b > 0) {
+    //       return a * b;
+    //     }
+    //    // return 0;
+    //   }
+      
+    //   console.log(calculate(3, 9));
+    
+      
+      //console.log(getRectArea(-3, 4));
+
+
+
+
+
+
+
+
+
+    //   function calculateCircumference(radius) {
+    //     return 2 * Math.PI * radius;
+    //   }
+      
+     // console.log(Math.PI);
+     
+      
+    //   console.log(calculateCircumference(10));
+
+    //   function circleArea(radius) {
+    //     let area = Math.PI * (radius * radius);
+    //      return area
+    //     console.log(area);
+    //     // console.log(Math.round(area*100)/100);
+    // }
+     
+    // circleArea(5);
+
+
+
+    // var pi = 5;
+    // var radius = 2
+    // function 
+
+
+
+//   var input = prompt('enter the value');
+//     var rite = 5;
+//     if(input == rite){
+//         alert("you have won");
+        
+    
+//     }
+//     else if (input !== rite){
+//         prompt("enter the correct value")
+//     }
+//     else if (input=== rite){
+//         alert("you have won");
+//     }
+//  var input =prompt("enter the value");   
+  var i = 5;
+  do { 
+      input =prompt("enter the value");   
+     if(input == i){
+    alert("you have won");}
+     
+  } while (input !== i){
+      input1 = prompt("enter the correct value");
+  }
+//  prompt("enter the correct value");
+
+//  var i = 0;
+// while (i <= 3) {
+//  alert(i);
+//  i++;
+//  }
+
+
+
+
+
+
