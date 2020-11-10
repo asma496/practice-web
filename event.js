@@ -22,28 +22,96 @@
 
 
 
-function form() {
+// function form() {
 
-    var country;
+//     var country;
 
-    var result = document.getElementById("cityname").value;
+//     var result = document.getElementById("cityname").value;
 
-    switch (result) {
+//     switch (result) {
 
-        case countryname = "america":
-            cityName = "Chicago";
+//         case countryname = "america":
+//             cityName = "Chicago";
 
-            break;
+//             break;
 
-        case countryname = "pakistan":
-            cityName = "karachi";
+//         case countryname = "pakistan":
+//             cityName = "karachi";
 
-            break;
+//             break;
 
-        case countryname = "india":
-            cityName = "bombay";
+//         case countryname = "india":
+//             cityName = "bombay";
 
+//     }
+//     document.getElementByset("countryname").value = countryname;
+
+
+// var student = {
+//     name: "David Rayy",
+//     sclass: "VI",
+//     rollno: 12,
+// showallData: function() {
+//     console.log(student.rollno)
+// }
+// };
+// student.showallData()
+// for (var i in student) {
+//     console.log(student[i]);
+
+// } 
+
+
+
+// var list = [
+
+//     {
+//         title: 'Bill Gates',
+//         author: 'The Road Ahead',
+//         readingStatus: true,
+//     },
+
+//     {
+//         title: 'Steve Jobs',
+//         author: 'Walter Isaacson',
+//         readingStatus: true,
+//     },
+
+//     {
+//         title: 'Mockingjay: The Final Book of The Hunger Games',
+//         author: 'Suzanne Collins',
+//         readingStatus: false,
+//     },
+// ];
+
+
+// for (var i in list1) {
+//     console.log(list1.author + list2.author + list3.author);
+
+// }
+
+function Employee(name, absent, salary) {
+    this.name = name;
+    this.absent = absent;
+    this.salary = salary;
+    Employee.prototype.bonus = 6000;
+    this.salarycalc = function() {
+        if (this.absent > 2) {
+            this.salary = this.salary * .2 + Employee.prototype.bonus;
+            // console.log(this.salary);
+        }
     }
-    document.getElementByset("countryname").value = countryname;
-
 }
+
+var employe1 = new Employee('asma', 0, 10000);
+var employe2 = new Employee('madiha', 10, 10000);
+var employe3 = new Employee('jawad', 0, 10000);
+
+
+employe1.salarycalc()
+employe2.salarycalc()
+employe3.salarycalc()
+employe1.bonus = 0;
+console.log(employe1)
+console.log(employe2)
+console.log(employe3)
