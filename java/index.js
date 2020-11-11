@@ -552,13 +552,13 @@
 //         alert("you have won");
 //     }
 //  var input =prompt("enter the value");   
-  var i = 5;
-  do { 
-      input =+prompt("enter the value");   
-     if(input == i){
-    alert("you have won");}
+  // var i = 5;
+  // do { 
+  //     input =+prompt("enter the value");   
+  //    if(input == i){
+  //   alert("you have won");}
      
-  } while (input !== i)
+  // } while (input !== i)
 
 
 
