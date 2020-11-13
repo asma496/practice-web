@@ -1,12 +1,10 @@
-
-
 //Q no. 1
 
 // alert
 //     ("Asma Ashraf \n & \n I have done graduation" )
 
 
-    // Q no. 2
+// Q no. 2
 
 
 //  var birthYear;
@@ -19,8 +17,8 @@
 
 
 
-    // var heading = "Rules for naming JS variables"
-    // document.write (heading);
+// var heading = "Rules for naming JS variables"
+// document.write (heading);
 
 
 //Q no. 4
@@ -210,10 +208,10 @@
 // var nam = "asma hina iqra shumaila madiha";
 
 // function names(nam1){
-  
+
 //  nam = nam1.toUpperCase();
 
-    
+
 // }
 //   names(nam)
 // console.log(nam);
@@ -256,14 +254,14 @@
 // {
 //   var vowel_list = prompt("entre the name");
 //   var vcount = 1;
-  
+
 //   for(var i = 0; i < str1.length ; i++)
 //   {
 //     if (vowel_list.indexOf(str1[i]) !== -1)
 //     {
 //       vcount += 1;
 //     }
-  
+
 //   }
 //   return vcount;
 // }
@@ -336,12 +334,12 @@
 // }
 
 
- 
+
 // var str = 'the quick brown fox jumps over the lazy dog';
 // var str2 = (str.slice(0,19));
 // var add = 'the white cat';
 // var add2 = (add + str.slice(19));
- 
+
 // console.log(add2);
 
 
@@ -353,7 +351,7 @@
 //   console.log('no found')
 // }
 
- 
+
 
 // var text = 'that takes string and find exclaimation ! point in the string';
 // console.log(text.indexoft('!'));
@@ -363,11 +361,11 @@
 
 // function txt(input){
 // return Number(input).toFixed(2)
-  
+
 // }
 
 // console.log(txt(input));
-  
+
 // function roundoff(num,n){
 //   num = num.toFixed(n)
 //   console.log(num)
@@ -380,7 +378,7 @@
 
 //  function roundoff(num,n){
 //    num = num.toFixed(n)
-   
+
 
 // }
 // roundoff(num);
@@ -399,17 +397,17 @@
 //     max = Math.floor(max); 
 //     return Math.floor(Math.random() * (max - min + 1)) + min; 
 // }  
-  
+
 // document.write("Random Number between 1 and 10: ")  
-  
+
 // Function call 
 // document.write( randomNumber(1, 10) );
 
 
 // 1
-    // if(arr== get.indexof(num)){
-       //console.log("your index is" , arr);
-    
+// if(arr== get.indexof(num)){
+//console.log("your index is" , arr);
+
 //    }   
 // newarr(get);
 // console.log("your index is" , arr);
@@ -423,33 +421,33 @@
 //      if(arr.indexof()){
 //     return "You're getting plenty of sleep! Maybe even too much!";}
 //     console.log(arr)
-    // else(number of sleep < 8)
-    // {return "Get some more shut eye!";}
-    // }
-    // double(55);
-    //console.log(arr);
+// else(number of sleep < 8)
+// {return "Get some more shut eye!";}
+// }
+// double(55);
+//console.log(arr);
 
 
 
 
-    // var days = ['Monday', "Tuesday", 'Wednesday', 'Thursday', 'Friday','Saturday','Sunday'];
-    // var range = Math.floor(Math.random()*7);
-    // console.log(days[range]);
+// var days = ['Monday', "Tuesday", 'Wednesday', 'Thursday', 'Friday','Saturday','Sunday'];
+// var range = Math.floor(Math.random()*7);
+// console.log(days[range]);
 
 
 
-    // var now = new Date();
-    // var birth = new Date("june 30, 1996");
-    // var diff =  now.getTime() - birth.getTime();
-    // diff = diff /(1000*60*60*24);
-    // console.log(diff);
+// var now = new Date();
+// var birth = new Date("june 30, 1996");
+// var diff =  now.getTime() - birth.getTime();
+// diff = diff /(1000*60*60*24);
+// console.log(diff);
 
 
-    // var now = new Date();
-    // var tomm = new Date("Nov 5, 2020 10:44:30");
-    // var diff = tomm.getTime() - now.getTime();
-    // diff = diff/(1000*60*60);
-    // console.log(diff);
+// var now = new Date();
+// var tomm = new Date("Nov 5, 2020 10:44:30");
+// var diff = tomm.getTime() - now.getTime();
+// diff = diff/(1000*60*60);
+// console.log(diff);
 
 // var now = new Date();
 
@@ -458,83 +456,83 @@
 //      console.log(format);
 //     }
 //     formatdate(now);
-      // console.log("Current date: "+ theHr + ":" + theMin+ "-" +get, now);
-      
-      // tellTime(date)
-      // console.log(now);
+// console.log("Current date: "+ theHr + ":" + theMin+ "-" +get, now);
+
+// tellTime(date)
+// console.log(now);
 
 
 
-    //   var signal = "green";
+//   var signal = "green";
 
-    //   switch (signal) {
-    //       case "red":
-    //           alert("must stop")
-              
-    //           break;
-    //           case "yellow":
-    //      alert("ready");
-    //           break;
-    //           case "green":
-    //               alert("go")
-    //               break;
+//   switch (signal) {
+//       case "red":
+//           alert("must stop")
 
-    //       default:
-    //           alert("depend on u");
-             
-    //   }
+//           break;
+//           case "yellow":
+//      alert("ready");
+//           break;
+//           case "green":
+//               alert("go")
+//               break;
 
+//       default:
+//           alert("depend on u");
 
-    // var arr = ["asma","iqra","sidra","genifer"]
-    // var newarr =[];
-    // function arr2(arr){
-        
-    // }
+//   }
 
 
-    // function calculate(a, b) {
-    //     if (a > 0 && b > 0) {
-    //       return a * b;
-    //     }
-    //    // return 0;
-    //   }
-      
-    //   console.log(calculate(3, 9));
-    
-      
-      //console.log(getRectArea(-3, 4));
+// var arr = ["asma","iqra","sidra","genifer"]
+// var newarr =[];
+// function arr2(arr){
+
+// }
 
 
+// function calculate(a, b) {
+//     if (a > 0 && b > 0) {
+//       return a * b;
+//     }
+//    // return 0;
+//   }
+
+//   console.log(calculate(3, 9));
 
 
+//console.log(getRectArea(-3, 4));
 
 
 
 
 
-    //   function calculateCircumference(radius) {
-    //     return 2 * Math.PI * radius;
-    //   }
-      
-     // console.log(Math.PI);
-     
-      
-    //   console.log(calculateCircumference(10));
-
-    //   function circleArea(radius) {
-    //     let area = Math.PI * (radius * radius);
-    //      return area
-    //     console.log(area);
-    //     // console.log(Math.round(area*100)/100);
-    // }
-     
-    // circleArea(5);
 
 
 
-    // var pi = 5;
-    // var radius = 2
-    // function 
+
+//   function calculateCircumference(radius) {
+//     return 2 * Math.PI * radius;
+//   }
+
+// console.log(Math.PI);
+
+
+//   console.log(calculateCircumference(10));
+
+//   function circleArea(radius) {
+//     let area = Math.PI * (radius * radius);
+//      return area
+//     console.log(area);
+//     // console.log(Math.round(area*100)/100);
+// }
+
+// circleArea(5);
+
+
+
+// var pi = 5;
+// var radius = 2
+// function 
 
 
 
@@ -542,8 +540,8 @@
 //     var rite = 5;
 //     if(input == rite){
 //         alert("you have won");
-        
-    
+
+
 //     }
 //     else if (input !== rite){
 //         prompt("enter the correct value")
@@ -552,6 +550,7 @@
 //         alert("you have won");
 //     }
 //  var input =prompt("enter the value");   
+<<<<<<< HEAD
   // var i = 5;
   // do { 
   //     input =+prompt("enter the value");   
@@ -559,11 +558,56 @@
   //   alert("you have won");}
      
   // } while (input !== i)
+=======
+// var i = 5;
+// do { 
+//     input =+prompt("enter the value");   
+//    if(input == i){
+//   alert("you have won");}
+
+
+>>>>>>> 9cbf7d11db230b357d063b09e4e3b8e7aa2cbb77
+
+// function clickbtn() {
+//     var x = document.getElementById("para").style.display = "none";
+
+// console.log(x[0].className)
+// x[0].className = ' blue'
+
+
+// function result() {
+
+// var d = document.getElementById("humpty");
+
+
+// var pCounter = 0;
+
+// for (var i = 0; i < d.childNodes.length; i++) {
+
+//     if (d.childNodes[i].nodeType == 1) {
+//         pCounter++;
+
+//     }
+
+//     if (pCounter === 2) {
+//         d.childNodes[i].innerHTML = "All his men.";
+
+//         break;
+
+//     }
+//     console.log(d);
+// }
 
 
 
 
+function additems() {
+    var li = document.createElement("li")
+    var main = document.getElementById("main")
+    var x = document.createTextNode(main.value)
+    li.appendChild(x)
+        // var list =
+    document.getElementById("list").appendChild(li)
+        // list.appendChild(li)
 
-
-
-
+}
