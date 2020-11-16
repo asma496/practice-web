@@ -550,7 +550,7 @@
 //         alert("you have won");
 //     }
 //  var input =prompt("enter the value");   
-<<<<<<< HEAD
+
   // var i = 5;
   // do { 
   //     input =+prompt("enter the value");   
@@ -558,7 +558,7 @@
   //   alert("you have won");}
      
   // } while (input !== i)
-=======
+
 // var i = 5;
 // do { 
 //     input =+prompt("enter the value");   
@@ -566,7 +566,7 @@
 //   alert("you have won");}
 
 
->>>>>>> 9cbf7d11db230b357d063b09e4e3b8e7aa2cbb77
+
 
 // function clickbtn() {
 //     var x = document.getElementById("para").style.display = "none";
