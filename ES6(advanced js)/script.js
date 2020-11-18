@@ -72,21 +72,21 @@
 
 
 
-var teachers = [' Miss Faiza', 'sir mughal', 'sir yonus'];
-var students = ['asma','madiha','shumaila' ];
-var age = [ 19,30,40];
-var a = ' Miss Faiza';
- var b = teachers.includes(a)
+// var teachers = [' Miss Faiza', 'sir mughal', 'sir yonus'];
+// var students = ['asma','madiha','shumaila' ];
+// var age = [ 19,30,40];
+// var a = ' Miss Faiza';
+//  var b = teachers.includes(a)
 
- if(b){
-  let d = students.map((item,index) =>{
-      return{ name:item, age:age[index]}
-  } 
-  )
-        console.log(d); 
+//  if(b){
+//   let d = students.map((item,index) =>{
+//       return{ name:item, age:age[index]}
+//   } 
+//   )
+//         console.log(d); 
            
             
-         }
+//          }
      
   
 // console.log(d)
@@ -110,14 +110,59 @@ var a = ' Miss Faiza';
     // [a,b,c]=[10,6,5]
     // console.log(b)
 
-     let input =+prompt('WHAT IS YOUR SALARY?');
-    // var salary = (sal>=5000)? 1000: 500
+    //  let input =+prompt('WHAT IS YOUR SALARY?');
+    // // var salary = (sal>=5000)? 1000: 500
+    // // console.log(salary);
+
+    // var salary = (input == 5000)? 'you will get 1000RS bonus'
+    // : (input < 5000)? 'you will get 500RS bonus'
+    // :(input > 5000)?'you will get 2000RS bonus'
+    // :'invalid'
     // console.log(salary);
-
-    var salary = (input == 5000)? 'you will get 1000RS bonus'
-    : (input < 5000)? 'you will get 500RS bonus'
-    :(input > 5000)?'you will get 2000RS bonus'
-    :'invalid'
-    console.log(salary);
                     
+// var arr = ['asma','madiha'];
+// var arr1 = ['ruqayya', 'shumaila','hina'];
+// arr[0]='fozia';
 
+// var arr2 = [...arr,...arr1];
+// console.log(arr2);
+
+
+// var obj = {
+//     name:"asma",
+// }; 
+// var obj3 = {
+  
+//     age:'30',
+
+// };
+// var newobj = {...obj, ...obj3};
+// console.log(newobj);
+
+// function myfunc(a,b,c){
+//     return a*b*c
+
+// }
+// let d =[a,b,c]=[3,4,6];
+// var res =myfunc(...d)
+// console.log(res);
+
+
+// let sum = (a,...b) =>{
+//     var res1 =b.reduce((item,index)=>{
+//         return item-index
+//     }
+
+//     )
+//     res1= a-res1;
+//    // console.log(res1);
+//     return res1
+// }
+// var  result =sum(45,22,2);
+// console.log(result);
+
+function check(...op){
+    let [a,b,c]=op
+    console.log(a,b,c)
+}
+check(1,2,3)
